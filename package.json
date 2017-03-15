@@ -1,0 +1,30 @@
+{
+  "name": "user-agent-string",
+  "version": "0.0.1",
+  "description": "",
+  "preferGlobal": true,
+  "main": "./lib/ua-string",
+  "bin": {
+    "ua-string": "./bin/ua-string"
+  },
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:WindomZ/user-agent-string.git"
+  },
+  "keywords": [
+    "user-agent",
+    "cli",
+    "ua"
+  ],
+  "author": "WindomZ <git.windomz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WindomZ/user-agent-string/issues"
+  },
+  "homepage": "https://github.com/WindomZ/user-agent-string#readme",
+  "dependencies": {
+  }
+}
