@@ -28,6 +28,7 @@
   "dependencies": {
     "axios": "^0.15.3",
     "cheerio": "^0.22.0",
+    "colors": "^1.1.2",
     "commander": "^2.9.0"
   }
 }
