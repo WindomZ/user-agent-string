@@ -2,7 +2,7 @@
 
 Easy way to get User Agent Strings in Command line interface.
 
-![v0.4.0](https://img.shields.io/badge/version-v0.4.0-orange.svg)
+![v0.4.1](https://img.shields.io/badge/version-v0.4.1-orange.svg)
 ![status](https://img.shields.io/badge/status-beta-yellow.svg)
 
 ## Installation
