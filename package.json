@@ -26,5 +26,8 @@
   },
   "homepage": "https://github.com/WindomZ/user-agent-string#readme",
   "dependencies": {
+    "axios": "^0.15.3",
+    "cheerio": "^0.22.0",
+    "commander": "^2.9.0"
   }
 }
