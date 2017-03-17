@@ -1,4 +1,5 @@
 # user-agent-string
+[![Build Status](https://travis-ci.org/WindomZ/user-agent-string.svg?branch=master)](https://travis-ci.org/WindomZ/user-agent-string)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Node](https://img.shields.io/badge/node-%3E=6.9-blue.svg?style=flat-square)
 
