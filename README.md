@@ -4,7 +4,7 @@
 
 Easy way to get User Agent Strings in command line interface.
 
-![v0.4.1](https://img.shields.io/badge/version-v0.4.1-orange.svg)
+![v0.4.2](https://img.shields.io/badge/version-v0.4.2-orange.svg)
 ![status](https://img.shields.io/badge/status-beta-yellow.svg)
 
 The User Agent Strings data comes from [useragentstring.com](http://www.useragentstring.com/pages/useragentstring.php)
@@ -56,7 +56,8 @@ Examples can be found in the following.
 
 Customize the string format, depending on your needs. 
 
-The rule is to use `*` to replace `%s`, very **simple**, 
+The rule is to use `*` to replace `%s`, 
+you can also use `%s`, e.g. `-f '<%s>'`, `-f '{(%s)}'`, very **simple**, 
 default format is `"*"`, same as `-f '"*"'`, e.g.
 
 ```bash
@@ -69,8 +70,6 @@ $ ua-string Chrome -l 1 -f '<*>'
 $ ua-string Chrome -l 1 -f '{(*)}'
 # >>> {(Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36)}
 ```
-
-TODO: You can also use `%s`, e.g. `-f '<%s>'`, `-f '{(%s)}'`. 
 
 ### -s, --separator `<separator>`
 
@@ -112,14 +111,14 @@ $ ua-string Dillo -l 3 --line
 Save the User Agent Strings to a file, e.g.
 
 ```bash
-$ ua-string Dillo -l 5 --save user_agent
+$ ua-string Chrome -l 5 --save user_agent
 .
 ├── user_agent
 ```
 
 Automatically help you create the directory.
 ```bash
-$ ua-string Dillo -l 5 --save ./ua/user_agent
+$ ua-string Chrome -l 5 --save ./ua/user_agent
 .
 ├── ua
 │   ├── user_agent
@@ -127,7 +126,7 @@ $ ua-string Dillo -l 5 --save ./ua/user_agent
 
 With `--line` can increase content readability.
 ```bash
-$ ua-string Dillo -l 5 --line --save ~/user_agent
+$ ua-string Chrome -l 5 --line --save ~/user_agent
 ```
 
 ## License
