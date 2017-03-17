@@ -4,7 +4,7 @@
 
 Easy way to get User Agent Strings in command line interface.
 
-![v0.4.2](https://img.shields.io/badge/version-v0.4.2-orange.svg)
+![v0.4.3](https://img.shields.io/badge/version-v0.4.3-orange.svg)
 ![status](https://img.shields.io/badge/status-beta-yellow.svg)
 
 The User Agent Strings data comes from [useragentstring.com](http://www.useragentstring.com/pages/useragentstring.php)
