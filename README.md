@@ -1,18 +1,20 @@
 # user-agent-string
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Node](https://img.shields.io/badge/node-%3E=6.9-blue.svg?style=flat-square)
 
 Easy way to get User Agent Strings in command line interface.
 
 ![v0.4.1](https://img.shields.io/badge/version-v0.4.1-orange.svg)
 ![status](https://img.shields.io/badge/status-beta-yellow.svg)
 
-The User Agent Strings source comes from [useragentstring.com](http://www.useragentstring.com/pages/useragentstring.php)
+The User Agent Strings data comes from [useragentstring.com](http://www.useragentstring.com/pages/useragentstring.php)
 
 ## Features
 
 - [x] Custom User Agent Strings format and separator
 - [x] Limit the number of User Agent Strings
-- [x] Save the User Agent Strings to a file
 - [x] User Agent Strings wraps to increase readability
+- [x] Save the User Agent Strings to a file
 - [ ] List the supported browsers to select
 
 ## Installation
@@ -107,7 +109,26 @@ $ ua-string Dillo -l 3 --line
 
 ### --save `<file>`
 
-TODO: Writing...
+Save the User Agent Strings to a file, e.g.
+
+```bash
+$ ua-string Dillo -l 5 --save user_agent
+.
+├── user_agent
+```
+
+Automatically help you create the directory.
+```bash
+$ ua-string Dillo -l 5 --save ./ua/user_agent
+.
+├── ua
+│   ├── user_agent
+```
+
+With `--line` can increase content readability.
+```bash
+$ ua-string Dillo -l 5 --line --save ~/user_agent
+```
 
 ## License
 
