@@ -122,7 +122,7 @@ $ ua-string Chrome -l 5 --save user_agent
 ├── user_agent
 ```
 
-Automatically help you create the directory.
+Automatically create the directory.
 ```bash
 $ ua-string Chrome -l 5 --save ./ua/user_agent
 .
@@ -137,7 +137,17 @@ $ ua-string Chrome -l 5 --line --save ~/user_agent
 
 ### search | find `[options]` `[search]`
 
-Select browser to get list of User Agent Strings.
+Select browser to get list of User Agent Strings. e.g.
+
+```bash
+$ ua-string search -l 5
+
+$ ua-string find -l 5 --line
+
+$ ua-string search ch -l 1 --line
+
+$ ua-string search chrome -l 5 --save user_agent
+```
 
 ## License
 
