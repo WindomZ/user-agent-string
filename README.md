@@ -5,7 +5,7 @@
 
 Easy way to get User Agent Strings in command line interface.
 
-![v0.5.0](https://img.shields.io/badge/version-v0.5.0-orange.svg)
+![v0.6.0](https://img.shields.io/badge/version-v0.6.0-orange.svg)
 ![status](https://img.shields.io/badge/status-beta-yellow.svg)
 
 The User Agent Strings data comes from [useragentstring.com](http://www.useragentstring.com/pages/useragentstring.php)
@@ -16,7 +16,7 @@ The User Agent Strings data comes from [useragentstring.com](http://www.useragen
 - [x] Limit the number of User Agent Strings
 - [x] User Agent Strings wraps to increase readability
 - [x] Save the User Agent Strings to a file
-- [ ] List the supported browsers to select
+- [x] List the supported browsers to select
 
 ## Installation
 
@@ -32,6 +32,11 @@ npm install -g user-agent-string
 $ ua-string -h
 
   Usage: ua-string [options] <browser>
+
+
+  Commands:
+
+    search|find [options] [search]  select browser to get list of User Agent Strings
 
   list of User Agent Strings
 
@@ -129,6 +134,10 @@ With `--line` can increase content readability.
 ```bash
 $ ua-string Chrome -l 5 --line --save ~/user_agent
 ```
+
+### search | find `[options]` `[search]`
+
+Select browser to get list of User Agent Strings.
 
 ## License
 
