@@ -1,5 +1,8 @@
 {
   "name": "user-agent-string",
+  "engines": {
+    "node": ">=6.9.0"
+  },
   "version": "0.4.3",
   "description": "",
   "preferGlobal": true,
@@ -8,7 +11,7 @@
     "ua-string": "./bin/ua-string"
   },
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -30,5 +33,8 @@
     "cheerio": "^0.22.0",
     "colors": "^1.1.2",
     "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2"
   }
 }
