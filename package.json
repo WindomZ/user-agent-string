@@ -1,9 +1,9 @@
 {
   "name": "user-agent-string",
   "engines": {
-    "node": ">=7.6.0"
+    "node": ">=6.9.0"
   },
-  "version": "0.4.3",
+  "version": "0.5.0",
   "description": "",
   "preferGlobal": true,
   "main": "./lib/ua-string",
@@ -31,6 +31,7 @@
   "dependencies": {
     "axios": "^0.15.3",
     "cheerio": "^0.22.0",
+    "co": "^4.6.0",
     "colors": "^1.1.2",
     "commander": "^2.9.0"
   },
