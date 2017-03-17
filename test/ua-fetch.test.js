@@ -5,12 +5,6 @@ const test = require('ava');
 
 const fetch = require('../lib/ua-fetch');
 
-// test.serial('test', async(t) => {
-//   let r = '(Dillo/2.0), (Dillo/0.8.6-i18n-misc)';
-//   t.regex(r, /^\(Dillo\/.+\),\s\(Dillo\/.+\)/);
-//   t.pass();
-// });
-
 test.serial('Chrome -l 1', async(t) => {
   await fetch({
     limit: 1,
