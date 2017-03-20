@@ -3,6 +3,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/WindomZ/user-agent-string/badge.svg?branch=master)](https://coveralls.io/github/WindomZ/user-agent-string?branch=master)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Node](https://img.shields.io/badge/node-%3E=6-blue.svg?style=flat-square)
+[![Dependency](https://david-dm.org/WindomZ/user-agent-string.svg)](https://david-dm.org/WindomZ/user-agent-string)
 
 Easy way to get User Agent Strings in command line interface.
 
