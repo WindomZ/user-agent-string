@@ -41,7 +41,8 @@ $ ua-string -h
 
   Commands:
 
-    search|find [options] [search]  select browser to get list of User Agent Strings
+    search|find [options] <keyword>  search and select the browser to get list of User Agent Strings
+    list|ls [options] [keyword]      list and select the browser to get list of User Agent Strings
 
   list of User Agent Strings
 
@@ -140,18 +141,32 @@ With `--line` can increase content readability.
 $ ua-string Chrome -l 5 --line --save ~/user_agent
 ```
 
-### search | find `[options]` `[search]`
+### search | find `[options]` `<search>`
 
-Select browser to get list of User Agent Strings. e.g.
+Search and select browser to get list of User Agent Strings. e.g.
 
 ```bash
-$ ua-string search -l 5
-
-$ ua-string find -l 5 --line
-
 $ ua-string search ch -l 1 --line
 
 $ ua-string search chrome -l 5 --save user_agent
+```
+
+### list | ls `[options]` `[keyword]`
+
+List and select browser to get list of User Agent Strings. e.g.
+
+```bash
+$ ua-string list -l 5
+
+$ ua-string list -l 5 --line
+```
+
+Similar to `search|find`, e.g.
+
+```bash
+$ ua-string list ch -l 1 --line
+
+$ ua-string list chrome -l 5 --save user_agent
 ```
 
 ## License
