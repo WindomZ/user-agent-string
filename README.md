@@ -6,10 +6,11 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Node](https://img.shields.io/badge/node-%3E=6-blue.svg?style=flat-square)
 [![Dependency](https://david-dm.org/WindomZ/user-agent-string.svg)](https://david-dm.org/WindomZ/user-agent-string)
+[![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com/)
 
 Easy way to get User Agent Strings in command line interface.
 
-![v1.0.0](https://img.shields.io/badge/version-v1.0.0-blue.svg)
+[![user-agent-string](https://img.shields.io/npm/v/user-agent-string.svg)](https://www.npmjs.com/package/user-agent-string)
 ![status](https://img.shields.io/badge/status-stable-green.svg)
 
 The User Agent Strings data comes from [useragentstring.com](http://www.useragentstring.com/pages/useragentstring.php)
