@@ -3,7 +3,7 @@
   "engines": {
     "node": ">=6.0.0"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "preferGlobal": true,
   "main": "./lib/ua-string",
@@ -11,7 +11,7 @@
     "ua-string": "./bin/ua-string"
   },
   "scripts": {
-    "test": "nyc --reporter=lcov --reporter=text-lcov ava"
+    "test": "standard && nyc --reporter=lcov --reporter=text-lcov ava"
   },
   "repository": {
     "type": "git",
@@ -39,6 +39,7 @@
   "devDependencies": {
     "ava": "^0.18.2",
     "coveralls": "^2.12.0",
-    "nyc": "^10.1.2"
+    "nyc": "^10.1.2",
+    "standard": "*"
   }
 }
