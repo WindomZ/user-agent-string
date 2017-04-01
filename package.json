@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/WindomZ/user-agent-string#readme",
   "dependencies": {
-    "axios": "^0.15.3",
+    "axios": "^0.16.0",
     "cheerio": "^0.22.0",
     "co": "^4.6.0",
     "colors": "^1.1.2",
