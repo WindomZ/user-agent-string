@@ -3,12 +3,12 @@
   "engines": {
     "node": ">=6.0.0"
   },
-  "version": "1.1.0",
-  "description": "",
+  "version": "1.2.0",
+  "description": "Easy way to get User Agent Strings in command line interface.",
   "preferGlobal": true,
-  "main": "./lib/ua-string",
+  "main": "index.js",
   "bin": {
-    "ua-string": "./bin/ua-string"
+    "ua-string": "./bin/ua-string.js"
   },
   "scripts": {
     "test": "standard && nyc --reporter=lcov --reporter=text-lcov ava"
