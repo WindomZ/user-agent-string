@@ -8,7 +8,9 @@
 [![Dependency](https://david-dm.org/WindomZ/user-agent-string.svg)](https://david-dm.org/WindomZ/user-agent-string)
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com/)
 
-Easy way to get User Agent Strings in command line interface.
+> Easy way to get User Agent Strings in command line interface.
+
+[![NPM](https://nodei.co/npm/user-agent-string.png)](https://nodei.co/npm/user-agent-string/)
 
 [![user-agent-string](https://img.shields.io/npm/v/user-agent-string.svg)](https://www.npmjs.com/package/user-agent-string)
 ![status](https://img.shields.io/badge/status-stable-green.svg)
