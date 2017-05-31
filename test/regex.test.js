@@ -1,6 +1,8 @@
 /**
  * Created by WindomZ on 17-3-17.
  */
+'use strict'
+
 const test = require('ava')
 
 test.serial('test', t => {

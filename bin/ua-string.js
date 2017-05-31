@@ -1,24 +1,24 @@
+#!/usr/bin/env node
 /**
  * Created by WindomZ on 17-3-15.
  */
-const process = require('process')
+'use strict'
 
 const program = require('commander')
 
-const pkg = require('../package.json')
-const {processUA, processBrowser} = require('./process')
+const {processUA, processBrowser} = require('../lib/process')
 
 let noArgs = true
 
 program
-  .version(pkg.version)
+  .version(require('../package.json').version)
   .usage('[options] <browser>')
   .description('list of User Agent Strings')
-  .option('-l, --limit <limit>', 'limit count of the list', /^\d+$/, -1)
-  .option('-f, --format <format>', 'format of the strings', /^.*[*%s]+.*$/, '"%s"')
-  .option('-s, --separator <separator>', 'separators of the strings', /^.+$/, ', ')
+  .option('-l, --limit <limit>', 'limit count of the list', /^\d+$/i, -1)
+  .option('-f, --format <format>', 'format of the strings', /^.*[*%s]+.*$/i, '"%s"')
+  .option('-s, --separator <separator>', 'separators of the strings', /^.+$/i, ', ')
   .option('--line', 'each string has a newline', null, false)
-  .option('--save <file>', 'save to file', /^.+$/, null)
+  .option('--save <file>', 'save to file', /^.+$/i, null)
   .action((browser, options) => {
     noArgs = false
     processUA(browser, options)

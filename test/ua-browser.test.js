@@ -1,6 +1,8 @@
 /**
  * Created by WindomZ on 17-3-18.
  */
+'use strict'
+
 const test = require('ava')
 
 const fetch = require('../lib/ua-browser')
