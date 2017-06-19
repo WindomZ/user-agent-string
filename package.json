@@ -29,12 +29,12 @@
   },
   "homepage": "https://github.com/WindomZ/user-agent-string#readme",
   "dependencies": {
-    "axios": "^0.16.1",
+    "axios": "^0.16.2",
     "cheerio": "^1.0.0-rc.1",
     "co": "^4.6.0",
     "colors": "^1.1.2",
     "commander": "^2.9.0",
-    "inquirer": "^3.1.0"
+    "inquirer": "^3.1.1"
   },
   "devDependencies": {
     "ava": "^0.19.1",
