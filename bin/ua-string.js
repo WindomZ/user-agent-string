@@ -6,7 +6,7 @@
 
 const program = require('commander')
 
-const {processUA, processBrowser} = require('../lib/process')
+const { processUA, processBrowser } = require('../lib/process')
 
 let noArgs = true
 
