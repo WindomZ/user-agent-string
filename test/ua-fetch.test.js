@@ -7,7 +7,7 @@ const test = require('ava')
 
 const fetch = require('../lib/ua-fetch')
 
-test.serial('Chrome -l 1', async(t) => {
+test.serial('Chrome -l 1', async (t) => {
   await fetch({
     limit: 1,
     browser: 'Chrome'
@@ -18,7 +18,7 @@ test.serial('Chrome -l 1', async(t) => {
   }).catch(err => t.fail(err))
 })
 
-test.serial(`Dillo -l 2 -f '{(*)}'`, async(t) => {
+test.serial(`Dillo -l 2 -f '{(*)}'`, async (t) => {
   await fetch({
     format: '{(*)}',
     limit: 2,
@@ -30,7 +30,7 @@ test.serial(`Dillo -l 2 -f '{(*)}'`, async(t) => {
   }).catch(err => t.fail(err))
 })
 
-test.serial(`Dillo -l 2 -f '(*)' -s '$$'`, async(t) => {
+test.serial(`Dillo -l 2 -f '(*)' -s '$$'`, async (t) => {
   await fetch({
     format: '(*)',
     separator: '$$',

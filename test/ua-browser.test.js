@@ -7,7 +7,7 @@ const test = require('ava')
 
 const fetch = require('../lib/ua-browser')
 
-test.serial('browser search se', async(t) => {
+test.serial('browser search se', async (t) => {
   await fetch({
     search: 'se'
   }).then(list => {
@@ -16,7 +16,7 @@ test.serial('browser search se', async(t) => {
   }).catch(err => t.fail(err))
 })
 
-test.serial('browser search di', async(t) => {
+test.serial('browser search di', async (t) => {
   await fetch({
     search: 'di'
   }).then(list => {
